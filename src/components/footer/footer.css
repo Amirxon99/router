@@ -1,0 +1,35 @@
+.footer {
+  padding: 44px;
+  background: #01aee7;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer ul {
+  list-style: none;
+}
+.footer ul li {
+  margin: 10px 0;
+}
+.footer ul li a {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  text-align: left;
+}
+.footer h3 {
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: white;
+}

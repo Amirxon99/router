@@ -1,24 +1,30 @@
+import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import "./App.css";
+import Header from "./components/header/Header";
 
-import { BrowserRouter as Router,Route,Link, Routes } from 'react-router-dom'
-import './App.css'
+import Footer from "./components/footer/Footer.jsx";
+import Home from "./pages/home/Home.jsx";
+import Brand from "./pages/brand/Brand.jsx";
+import Contact from "./pages/contact/Contact.jsx";
+import Comfort from "./pages/comfort/Comfort.jsx";
+import Club from "./pages/club/Club.jsx";
 
 function App() {
-  
-
   return (
     <>
-    <Router>
-           <Routes>
-             <Route path='/' element={Home} ></Route>
-             <Route path='/about' element={About} ></Route>
-
-           </Routes>
-
-
-    </Router>
-        
+      <Router>
+        <Header></Header>
+        <Routes>
+          <Route path="/" element={<Home/>}></Route>
+          <Route path="/brands" element={<Brand/>}></Route>
+          <Route path="/club" element={<Club/>}></Route>
+          <Route path="/contacts" element={<Contact/>}></Route>
+          <Route path="/comfort" element={<Comfort/>}></Route>
+        </Routes>
+        <Footer />
+      </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
