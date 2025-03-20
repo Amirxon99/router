@@ -9,7 +9,7 @@ import Contact from "./pages/contact/Contact.jsx";
 import Comfort from "./pages/comfort/Comfort.jsx";
 import Club from "./pages/club/Club.jsx";
 function NotFound() {
-  return <h1>404 - Page Not Found</h1>;
+  return <h1 className="container">404 - Page Not Found</h1>;
 }
 
 

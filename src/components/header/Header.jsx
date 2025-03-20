@@ -17,7 +17,7 @@ function Header() {
       </div>
       <nav>
           <ul>
-             <li><Link to="/">о бренде</Link></li>
+             <li><Link to="/" >о бренде</Link></li>
              <li><Link to="/brands">продукциИ</Link></li>
              <li><Link to="/comfort">преимущества</Link></li>
              <li><Link to="/club">открыть клуб</Link></li>
