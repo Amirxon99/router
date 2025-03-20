@@ -1,0 +1,163 @@
+.fitnez-video {
+    background-image: url(../../assets/images/home_back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.fitnez-video {
+    padding: 400px 0;
+}
+
+.true {
+    background-color: #01AEE7;
+    padding: 20px 0;
+}
+
+.home-box {
+    padding: 90px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.big-card {
+    width: 684px;
+}
+
+.info-img {
+    padding-top: 150px;
+    padding-left: 30px;
+    margin: 17px;
+    background-image: url(../../assets/images/fitt.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 426px;
+    width: 690px;
+}
+
+.info-img h3 {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+.info-img p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    max-width: 570px;
+}
+
+.blue-card {
+    padding: 21px 50px;
+    background-color: #01AEE7;
+    margin: 17px;
+}
+
+.blue-card h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+.blue-card p {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    max-width: 570px;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services {
+    padding: 100px 0;
+}
+
+.service-box {
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
+.service-info {
+    width: 281px;
+    height: 190px;
+}
+
+h4 {
+    max-width: 541px;
+    margin: 0 0 100px 100px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+h5 {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+.registration-box{
+    padding: 125px 500Cpx;
+    background-image: url(../../assets/images/Rect.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 805px;
+}
+.registration{
+    padding: 50px 25px ;
+background-color: white;
+width: 450px;
+height: 552px;
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+}
+.registration input{
+    padding: 10px 15px;
+ width: 100%;
+ font-weight: 700;
+}
+.registration button{
+    padding: 12px ;
+ width: 100%;
+ font-weight: 700;
+ color: white;
+ background-color: #01AEE7;
+ border: none;
+}
