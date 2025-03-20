@@ -1,0 +1,104 @@
+.truefitnes{
+    font-size: 40px;
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.brand{
+    background-color: #01AEE7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Montserrat";
+}
+.onashem{
+    color: #FFF500;
+}
+.backimg{
+    background-image: url(../../assets/images/Fitnes.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 1220px;
+}
+.sovershenstvo{
+    font-family: "Montserrat";
+    background-color: white;
+    color: #01AEE7;
+    height: 600px;
+    width: 700px;
+    padding: 50px;
+}
+.nashaopit{
+    color: black;
+}
+.sixboxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1220px;
+    gap: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.sixboxes img{
+    width: 300px;
+}
+.backimg2{
+    background-image: url(../../assets/images/balkonda.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 1220px;
+}
+.truefitnessopacity{
+    width: 1000px;
+    height: 600px;
+    background: #120E0E5E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Montserrat";
+}
+.poluchite{
+    font-size: 40px;
+    color: white;
+}
+.truefitnessbro{
+    color: #FFFF19;
+}
+.mdkok{
+    color: #01AEE7;
+}
+.mibudemradi{
+    color: #CDC848;
+}
+.mdinputboxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
+.mdinput{
+    background-color: #D9D9D9;
+    border: none;
+    font-size: 16px;
+    padding: 10px 10px;
+    font-family: "Monserrat";
+}
+.mdbtnotpravit{
+    background-color: #01AEE7;
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-family: "Monserrat";
+}
+.najimaya{
+    color: white;
+}
