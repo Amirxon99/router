@@ -1,12 +1,10 @@
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "./components/header/Header.jsx";
-import Footer from "./components/footer/Footer.jsx"
+import Footer from "./components/footer/Footer.jsx";
 import Home from "./pages/home/Home.jsx";
 import Brand from "./pages/brand/Brand.jsx";
 import Contact from "./pages/contact/Contact.jsx";
-import Comfort from "./pages/comfort/Comfort.jsx";
-import Club from "./pages/club/Club.jsx";
 function NotFound() {
   return <h1 className="container">404 - Page Not Found</h1>;
 }
