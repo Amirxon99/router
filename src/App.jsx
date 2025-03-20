@@ -8,6 +8,10 @@ import Brand from "./pages/brand/Brand.jsx";
 import Contact from "./pages/contact/Contact.jsx";
 import Comfort from "./pages/comfort/Comfort.jsx";
 import Club from "./pages/club/Club.jsx";
+function NotFound() {
+  return <h1>404 - Page Not Found</h1>;
+}
+
 
 function App() {
   return (
@@ -20,6 +24,7 @@ function App() {
           <Route path="/club" element={<Club/>}></Route>
           <Route path="/contacts" element={<Contact/>}></Route>
           <Route path="/comfort" element={<Comfort/>}></Route>
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </Router>
